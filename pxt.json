@@ -1,0 +1,26 @@
+{
+    "name": "MicorBit0727-2022",
+    "version": "0.0.0",
+    "description": "MicorBit0727-2022 16Pin IO Expansion Board drive for Microbit",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.3.10",
+        "cbit_IR":  "github:zhuning239/cBit_IR"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/cbit-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "license": "MIT"
+}
